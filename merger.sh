@@ -13,7 +13,7 @@ echo "##############################"
 echo ""
 
 ### Initial vars
-LOCALDIR=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
+LOCALDIR="/home/system_ext-merger"
 FE="$LOCALDIR/tools/firmware_extractor"
 
 ## Mount Point vars for system_new
