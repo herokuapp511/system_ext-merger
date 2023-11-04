@@ -26,13 +26,13 @@ If you get syntax errors run dos2unix on extractor.sh
 ## How to use
 ### Download
 ```
-git clone --recurse-submodules https://github.com/Treble-Experience/S_EXT-P-Merger.git
+git clone https://github.com/herokuapp511/system_ext-merger.git
 ```
 
 ### Extract images from firmware URL
 Example: Extracting images from LineageOS 18.0 zip:
 ```
-cd S_EXT-P-Merger
+cd system_ext-merger
 wget https://android.googleapis.com/packages/ota-api/vsmart_jacaranda_jacarandaopen/12198da2140b32aa979058845de3c41f4be9e730.zip -o vos.zip
 ./merger.sh vos.zip
 ```
